@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System.Diagnostics;
 
 namespace NUnit3TestProject
 {
@@ -9,13 +8,13 @@ namespace NUnit3TestProject
         [OneTimeSetUp]
         public void RunBeforeAnyTests()
         {
-            Trace.WriteLine("One Time SetUp");
+            Console.WriteLine("One Time SetUp");
         }
 
     [OneTimeTearDown]
         public void RunAfterAnyTests()
         {
-            Trace.WriteLine("One Time TearDown");
+            Console.WriteLine("One Time TearDown");
         }
     }
     
