@@ -1,7 +1,24 @@
 ﻿using NUnit.Framework;
+using System.Diagnostics;
 
 namespace NUnit3TestProject
 {
+    [SetUpFixture]
+    public class MySetUpClass
+    {
+        [OneTimeSetUp]
+        public void RunBeforeAnyTests()
+        {
+            Trace.WriteLine("One Time SetUp");
+        }
+
+    [OneTimeTearDown]
+        public void RunAfterAnyTests()
+        {
+            Trace.WriteLine("One Time TearDown");
+        }
+    }
+    
     [TestFixture]
     public class NUnit3Tests
     {
