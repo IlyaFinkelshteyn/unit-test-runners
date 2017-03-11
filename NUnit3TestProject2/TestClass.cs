@@ -1,6 +1,6 @@
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System;
-    
+
 namespace NUnit3TestProject2
 {
     [SetUpFixture]
@@ -12,13 +12,13 @@ namespace NUnit3TestProject2
             Console.WriteLine("One Time SetUp");
         }
 
-    [OneTimeTearDown]
+        [OneTimeTearDown]
         public void RunAfterAnyTests()
         {
             Console.WriteLine("One Time TearDown");
         }
     }
-    
+
     [TestFixture]
     public class NUnit3Tests
     {
