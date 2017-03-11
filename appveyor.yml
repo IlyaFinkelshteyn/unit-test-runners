@@ -1,6 +1,5 @@
 version: 1.0.{build}
 install:
 - cmd: nuget restore
-build:
-  project: NUnit3TestProject\NUnit3TestProject.csproj
+build:  
   verbosity: minimal
