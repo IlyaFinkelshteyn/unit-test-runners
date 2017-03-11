@@ -3,3 +3,7 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
+test:
+  assemblies:
+  - XUnit20TestProject.dll
+  - NUnit3TestProject.dll
