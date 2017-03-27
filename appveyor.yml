@@ -6,4 +6,5 @@ build:
 test:
   assemblies:
   #- NUnit3TestProject.dll
-  - NUnit3TestProject2.dll
+  #- NUnit3TestProject2.dll
+  - XUnit20TestProject.DLL
