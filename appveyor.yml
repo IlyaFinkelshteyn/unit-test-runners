@@ -24,3 +24,4 @@ test:
     - NUnit3TestProject2.dll
     - XUnit20TestProject.DLL
     - XUnitTestProject.dll
+    - NUnitTestProject.dll
