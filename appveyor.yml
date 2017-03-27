@@ -25,3 +25,4 @@ test:
     - XUnit20TestProject.DLL
     - XUnitTestProject.dll
     - NUnitTestProject.dll
+    - MsTestUnitTestProject.dll
