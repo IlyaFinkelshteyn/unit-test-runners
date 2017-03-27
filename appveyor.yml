@@ -1,4 +1,12 @@
 version: 1.0.{build}
+init:
+- cmd: >-
+    set xunit20=C:\Tools\xunit20
+
+    set path=C:\Tools\xUnit;%path%
+
+    set path=C:\Tools\NUnit3;%path%
+
 install:
 - cmd: nuget restore
 build:  
