@@ -19,5 +19,7 @@ build:
 
 test:
   assemblies:
-    only:
+    except:
+    - NUnit3TestProject.dll
+    - NUnit3TestProject2.dll
     - XUnit20TestProject.DLL
