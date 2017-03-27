@@ -5,5 +5,5 @@ build:
   verbosity: minimal
 test:
   assemblies:
-  - NUnit3TestProject.dll
+  #- NUnit3TestProject.dll
   - NUnit3TestProject2.dll
