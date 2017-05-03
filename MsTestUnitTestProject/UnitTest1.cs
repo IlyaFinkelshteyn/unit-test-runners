@@ -12,7 +12,7 @@ namespace MsTestUnitTestProject
         }
 
         [TestMethod]
-        public void MsTestMethod<2()
+        public void MsTestMethod()
         {
             Assert.AreNotEqual(1, 2);
         }
