@@ -35,7 +35,7 @@ namespace NUnit3TestProject2
         }
         
         [Test]
-        public void Less<Than()
+        public void Less<>Than()
         {
             Assert.AreNotEqual(1, 2);
         }
