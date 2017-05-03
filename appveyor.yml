@@ -17,12 +17,12 @@ build:
   #- NUnit3TestProject2.dll
  # - XUnit20TestProject.DLL
 
-test:
-  assemblies:
-    except:
-    - NUnit3TestProject.dll
-    - NUnit3TestProject2.dll
-    #- XUnit20TestProject.DLL
-    - XUnitTestProject.dll
-    - NUnitTestProject.dll
-    - MsTestUnitTestProject.dll
+#test:
+#  assemblies:
+#    except:
+#    - NUnit3TestProject.dll
+#    - NUnit3TestProject2.dll
+#    - XUnit20TestProject.DLL
+#    - XUnitTestProject.dll
+#    - NUnitTestProject.dll
+#    - MsTestUnitTestProject.dll
