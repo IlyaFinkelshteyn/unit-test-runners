@@ -32,12 +32,6 @@ namespace NUnit3TestProject2
         public void Nunit3TestMethod2()
         {
             Assert.AreNotEqual(1, 2);
-        }
-        
-        [Test]
-        public void Less<>Than()
-        {
-            Assert.AreNotEqual(1, 2);
-        }
+        }       
     }
 }
