@@ -13,9 +13,11 @@ build:
   verbosity: minimal
 test:
   assemblies:
-  - NUnit3TestProject.dll
-  - NUnit3TestProject2.dll
-  - XUnit20TestProject.DLL
+  #- NUnit3TestProject.dll
+  #- NUnit3TestProject2.dll
+  #- XUnit20TestProject.DLL
+  - XUnit20TestProject\bin\Debug\XUnit20TestProject.dll
+  - NUnit3TestProject2\bin\Debug\NUnit3TestProject2.dll
 
 #test:
 #  assemblies:
