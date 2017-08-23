@@ -16,8 +16,9 @@ test:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll
   #- XUnit20TestProject.DLL
-  - XUnit20TestProject\bin\Debug\XUnit20TestProject.dll
-  - NUnit3TestProject2\bin\Debug\NUnit3TestProject2.dll
+  #try specific file
+  - NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
+  
 
 #test:
 #  assemblies:
