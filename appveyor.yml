@@ -11,11 +11,11 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-#test:
-#  assemblies:
-  #- NUnit3TestProject.dll
-  #- NUnit3TestProject2.dll
- # - XUnit20TestProject.DLL
+test:
+  assemblies:
+  - NUnit3TestProject.dll
+  - NUnit3TestProject2.dll
+  - XUnit20TestProject.DLL
 
 #test:
 #  assemblies:
