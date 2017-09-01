@@ -1,4 +1,10 @@
 version: 1.0.{build}
+
+environment:
+  matrix:
+  - a: a1
+  - a: a2
+
 init:
 - cmd: >-
     set xunit20=C:\Tools\xunit20
@@ -15,7 +21,7 @@ test:
   assemblies:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll
-  #- XUnit20TestProject.DLL
+  - XUnit20TestProject.DLL
   #try specific file
   - NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
