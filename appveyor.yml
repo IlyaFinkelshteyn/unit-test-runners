@@ -20,7 +20,7 @@ test:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll 
   
-  - bin\Debug\XUnit20TestProject.DLL
+  - bin\Debug\*.DLL
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
