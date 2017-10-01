@@ -22,12 +22,12 @@ build:
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
 
-#test:
-#  assemblies:
-#    except:
+test:
+  assemblies:
+    except:
 #    - NUnit3TestProject.dll
 #    - NUnit3TestProject2.dll
 #    - XUnit20TestProject.DLL
-#    - XUnitTestProject.dll
+    - XUnitTestProject.dll
 #    - NUnitTestProject.dll
 #    - MsTestUnitTestProject.dll
