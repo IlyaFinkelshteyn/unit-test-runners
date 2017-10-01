@@ -7,7 +7,9 @@ init:
 
     set path=C:\Tools\xUnit;%path%
 
-    set path=c:\Tools\NUnit3\;%path% 
+    set path=c:\Tools\NUnit3\;%path%
+    
+    set path=c:\Tools\NUnit\bin;%path% 
 
 install:
 - cmd: nuget restore
