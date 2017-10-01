@@ -15,20 +15,20 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-#test:
- # assemblies:
-  #- NUnit3TestProject.dll
+test:
+  assemblies:
+  - NUnit3TestProject.dll
   #- NUnit3TestProject2.dll
   #- XUnit20TestProject.DLL
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
 
-test:
-  assemblies:
-    except:
-    - NUnit3TestProject.dll
-    - XUnit20TestProject.DLL
-    - XUnitTestProject.dll
+#test:
+#  assemblies:
+#    except:
+#    - NUnit3TestProject.dll
+#    - XUnit20TestProject.DLL
+#    - XUnitTestProject.dll
 #    - NUnitTestProject.dll
 #    - MsTestUnitTestProject.dll
