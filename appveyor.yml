@@ -24,9 +24,10 @@ test:
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
 
-#test:
-#  assemblies:
-#    except:
+test:
+  assemblies:
+    except:
+     - obj\Debug\*.dll
 #    - NUnit3TestProject.dll
 #    - XUnit20TestProject.DLL
 #    - XUnitTestProject.dll
