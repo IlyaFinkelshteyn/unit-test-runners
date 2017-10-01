@@ -18,9 +18,8 @@ build:
 test:
   assemblies:
   #- NUnit3TestProject.dll
-  #- NUnit3TestProject2.dll 
-  
-  - **\bin\debug\*.dll
+  #- NUnit3TestProject2.dll  
+  - '**\bin\debug\*.dll'
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
