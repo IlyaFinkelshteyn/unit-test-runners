@@ -1,9 +1,5 @@
 version: 1.0.{build}
 
-environment:
-  matrix:
-  - a: a1
-  - a: a2
 
 init:
 - cmd: >-
@@ -17,13 +13,13 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-test:
-  assemblies:
+#test:
+ # assemblies:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll
-  - XUnit20TestProject.DLL
+  #- XUnit20TestProject.DLL
   #try specific file
-  - NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
+  #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
 
 #test:
