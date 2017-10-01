@@ -27,7 +27,7 @@ test:
 test:
   assemblies:
     except:
-     - '**\obj\Debug\*.dll'
+    - obj\Debug\*.dll
 #    - NUnit3TestProject.dll
 #    - XUnit20TestProject.DLL
 #    - XUnitTestProject.dll
