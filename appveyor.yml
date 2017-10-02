@@ -10,6 +10,8 @@ init:
     set path=c:\Tools\NUnit3\;%path%
     
     set path=c:\Tools\NUnit\bin;%path% 
+    
+    set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
 
 install:
 - cmd: nuget restore
