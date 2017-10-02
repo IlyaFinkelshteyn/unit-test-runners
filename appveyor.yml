@@ -19,8 +19,8 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-#test:
-#  assemblies:
+test:
+  assemblies:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll  
   - '**\bin\debug\xunit2*.dll'
