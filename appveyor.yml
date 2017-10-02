@@ -21,7 +21,7 @@ test:
   assemblies:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll  
-  - '**\xunit2*.dll'
+  - '**\bin\debug\xunit2*.dll'
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
