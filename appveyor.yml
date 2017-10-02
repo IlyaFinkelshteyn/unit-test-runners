@@ -22,6 +22,7 @@ test:
   #- NUnit3TestProject.dll
   #- NUnit3TestProject2.dll  
   - '**\bin\debug\xunit2*.dll'
+  - '**\bin\debug\netcoreapp2.0\xunit2*.dll'  
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   
