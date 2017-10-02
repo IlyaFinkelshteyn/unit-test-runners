@@ -30,6 +30,7 @@ test:
   categories:
     only:
     - CategoryA
+    - CategoryB
 
 #test:
 #  assemblies:
