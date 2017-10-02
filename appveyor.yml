@@ -13,6 +13,8 @@ init:
     
     set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
 
+- ps: sleep 20 # attach debugger
+
 install:
 - cmd: nuget restore
 build:  
