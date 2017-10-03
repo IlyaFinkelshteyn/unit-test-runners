@@ -27,10 +27,10 @@ test:
   - '**\bin\debug\netcoreapp2.0\xunit2*.dll'  
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
-  categories:
-    except:
-    - CategoryA
-    - CategoryB
+  #categories:
+  #  except:
+  #  - CategoryA
+  #  - CategoryB
 
 #test:
 #  assemblies:
