@@ -28,7 +28,7 @@ test:
   #try specific file
   #- NUnit3TestProject\bin\Debug\NUnit3TestProject.dll
   categories:
-    only:
+    except:
     - CategoryA
     - CategoryB
 
