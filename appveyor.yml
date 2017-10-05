@@ -32,12 +32,12 @@ build:
   #  - CategoryA
   #  - CategoryB
 
-#test:
-#  assemblies:
-#    except:    
+test:
+  assemblies:
+    except:    
 #    - '**\obj\*'
 #    - NUnit3TestProject.dll
 #    - XUnit20TestProject.DLL
-#    - XUnitTestProject.dll
+    - XUnitTestProject.dll
 #    - NUnitTestProject.dll
 #    - MsTestUnitTestProject.dll
