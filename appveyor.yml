@@ -19,9 +19,9 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-#test:
- # assemblies:
-  #- NUnit3TestProject.dll
+test:
+  assemblies:
+  - NUnit3TestProject.dll
   #- NUnit3TestProject2.dll  
   #- '**\bin\debug\xunit2*.dll'
   #- '**\bin\debug\netcoreapp2.0\xunit2*.dll'  
@@ -32,12 +32,12 @@ build:
   #  - CategoryA
   #  - CategoryB
 
-test:
-  assemblies:
-    except:    
+#test:
+#  assemblies:
+#    except:    
 #    - '**\obj\*'
 #    - NUnit3TestProject.dll
 #    - XUnit20TestProject.DLL
-    - XUnitTestProject.dll
+#    - XUnitTestProject.dll
 #    - NUnitTestProject.dll
 #    - MsTestUnitTestProject.dll
