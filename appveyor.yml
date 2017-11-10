@@ -1,19 +1,14 @@
 version: 1.0.{build}
 
-
-init:
-- cmd: >-
-    set xunit20=C:\Tools\xunit20
-
-    set path=C:\Tools\xUnit;%path%
-
-    set path=c:\Tools\NUnit3\;%path%
-    
-    set path=c:\Tools\NUnit\bin;%path% 
-    
-    set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
-
-- ps: sleep 20 # attach debugger
+# local debug
+#init:
+#- cmd: |
+#    set xunit20=C:\Tools\xunit20
+#    set path=C:\Tools\xUnit;%path%
+#    set path=c:\Tools\NUnit3\;%path%
+#    set path=c:\Tools\NUnit\bin;%path% 
+#    set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
+#- ps: sleep 20 # attach debugger
 
 install:
 - cmd: nuget restore
@@ -22,7 +17,7 @@ build:
 test:
   assemblies:
   - NUnit3TestProject.dll
-  #- NUnit3TestProject2.dll  
+  - NUnit3TestProject2.dll  
   #- '**\bin\debug\xunit2*.dll'
   #- '**\bin\debug\netcoreapp2.0\xunit2*.dll'  
   #try specific file
