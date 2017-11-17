@@ -1,16 +1,16 @@
 version: 1.0.{build}
 
 # local debug
-#init:
-#- cmd: |
-#    set xunit20=C:\Tools\xunit20
-#    set path=C:\Tools\xUnit;%path%
-#    set path=c:\Tools\NUnit3\;%path%
-#    set path=c:\Tools\NUnit\bin;%path% 
-#    set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
-#- ps: sleep 20 # attach debugger
+init:
+- cmd: |
+    set xunit20=C:\Tools\xunit20
+    set path=C:\Tools\xUnit;%path%
+    set path=c:\Tools\NUnit3\;%path%
+    set path=c:\Tools\NUnit\bin;%path% 
+    set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
+- ps: sleep 20 # attach debugger
 
-image: Visual Studio 2017
+#image: Visual Studio 2017
 
 install:
 - cmd: nuget restore
