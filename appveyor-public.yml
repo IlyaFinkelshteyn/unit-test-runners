@@ -8,5 +8,4 @@ build:
 test:
   assemblies:
     only:
-    - NUnit3TestProject.dll
-    - NUnit3TestProject2.dll
+    - /NUnit/   
