@@ -8,7 +8,7 @@ init:
     set path=c:\Tools\NUnit3\;%path%
     set path=c:\Tools\NUnit\bin;%path% 
     set path=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;%path%     
-- ps: sleep 20 # attach debugger
+#- ps: sleep 20 # attach debugger
 
 #image: Visual Studio 2017
 
@@ -16,10 +16,10 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-test:
-  assemblies:
-  - NUnit3TestProject.dll
-  - NUnit3TestProject2.dll  
+#test:
+ # assemblies:
+  #- NUnit3TestProject.dll
+  #- NUnit3TestProject2.dll  
   #- '**\bin\debug\xunit2*.dll'
   #- '**\bin\debug\netcoreapp2.0\xunit2*.dll'  
   #try specific file
