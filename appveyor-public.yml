@@ -5,7 +5,7 @@ install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-test:
-  assemblies:
-    only:
-    - /NUnit/   
+#test:
+#  assemblies:
+#    only:
+#    - /NUnit/   
