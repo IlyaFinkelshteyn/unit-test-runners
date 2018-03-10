@@ -1,6 +1,6 @@
 version: 1.0.{build}
 
-platform: Any CPU
+# platform: Any CPU
 
 # local debug
 init:
