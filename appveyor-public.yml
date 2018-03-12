@@ -1,11 +1,18 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 
+platform: Any CPU
+
 install:
 - cmd: nuget restore
 build:  
   verbosity: minimal
-#test:
-#  assemblies:
-#    only:
-#    - /NUnit/   
+  
+test:
+  assemblies:
+    except:    
+    - NUnit3TestProject.dll
+    - XUnit20TestProject.DLL
+    - XUnitTestProject.dll
+    - NUnitTestProject.dll
+    - MsTestUnitTestProject.dll
