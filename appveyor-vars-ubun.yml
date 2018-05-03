@@ -1,0 +1,8 @@
+version: 1.0.{build}
+image: Ubuntu
+environment:
+  ilyaf_test_var:
+    secure: LhkySVI+spcudfefsfdsf
+install:
+- sh: env
+build: off
